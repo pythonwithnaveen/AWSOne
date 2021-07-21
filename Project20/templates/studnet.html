@@ -1,0 +1,25 @@
+
+{% extends 'common.html' %}
+
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <table align="center">
+            <tr>
+                <th style="text-align: center;font-size: 30px;font-family: 'Agency FB';" colspan="2">
+                    Add Student
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    {{ s_form }}
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" style="text-align: center">
+                    <button type="submit" class="btn-danger">Save</button>
+                </th>
+            </tr>
+        </table>
+    </form>
+{% endblock %}
