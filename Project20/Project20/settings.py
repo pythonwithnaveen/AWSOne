@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'Project20.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgres',
-        'NAME': ,
+        #'NAME': ,
     }
 }
 
